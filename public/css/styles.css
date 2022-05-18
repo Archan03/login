@@ -1,0 +1,57 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+
+    .all-txt{
+        color:#6392d7;
+}
+
+.home-align{
+    padding:150px 0;
+    
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-size{
+    display:flex;
+    justify-content: center;
+    
+}
+     
+.btn-txt{
+    padding:10px 30px 10px 30px;
+}
+
+.btn-or-txt{
+    font-weight:bold;
+    text-align:center;
+}
+
+p{
+    color:aliceblue;
+    text-align:center;
+}
+
+body{
+    background-image: url("../img/blackandwhite.jpg");
+    height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
